@@ -1,0 +1,11 @@
+{
+  "name": "scer.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ScerIO/scer.io.git",
+  "author": "Serge Shkurko <shkurko1998@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "firebase deploy"
+  }
+}

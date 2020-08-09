@@ -1,0 +1,616 @@
+body {
+  background-color: #98fb98;
+  -webkit-animation: colorChange 50s linear 0s infinite;
+  animation: colorChange 50s linear 0s infinite;
+}
+
+@-webkit-keyframes colorChange {
+  0% {
+    background-color: #98fba9;
+  }
+  1% {
+    background-color: #98fbae;
+  }
+  2% {
+    background-color: #98fbb4;
+  }
+  3% {
+    background-color: #98fbba;
+  }
+  4% {
+    background-color: #98fbc0;
+  }
+  5% {
+    background-color: #98fbc6;
+  }
+  6% {
+    background-color: #98fbcc;
+  }
+  7% {
+    background-color: #98fbd2;
+  }
+  8% {
+    background-color: #98fbd8;
+  }
+  9% {
+    background-color: #98fbde;
+  }
+  10% {
+    background-color: #98fbe4;
+  }
+  11% {
+    background-color: #98fbea;
+  }
+  12% {
+    background-color: #98fbf0;
+  }
+  13% {
+    background-color: #98fbf6;
+  }
+  14% {
+    background-color: #98fafb;
+  }
+  15% {
+    background-color: #98f4fb;
+  }
+  16% {
+    background-color: #98eefb;
+  }
+  17% {
+    background-color: #98e9fb;
+  }
+  18% {
+    background-color: #98e3fb;
+  }
+  19% {
+    background-color: #98ddfb;
+  }
+  20% {
+    background-color: #98d7fb;
+  }
+  21% {
+    background-color: #98d1fb;
+  }
+  22% {
+    background-color: #98cbfb;
+  }
+  23% {
+    background-color: #98c5fb;
+  }
+  24% {
+    background-color: #98bffb;
+  }
+  25% {
+    background-color: #98b9fb;
+  }
+  26% {
+    background-color: #98b3fb;
+  }
+  27% {
+    background-color: #98adfb;
+  }
+  28% {
+    background-color: #98a7fb;
+  }
+  29% {
+    background-color: #98a1fb;
+  }
+  30% {
+    background-color: #989bfb;
+  }
+  31% {
+    background-color: #9b98fb;
+  }
+  32% {
+    background-color: #a198fb;
+  }
+  33% {
+    background-color: #a798fb;
+  }
+  34% {
+    background-color: #ac98fb;
+  }
+  35% {
+    background-color: #b298fb;
+  }
+  36% {
+    background-color: #b898fb;
+  }
+  37% {
+    background-color: #be98fb;
+  }
+  38% {
+    background-color: #c498fb;
+  }
+  39% {
+    background-color: #ca98fb;
+  }
+  40% {
+    background-color: #d098fb;
+  }
+  41% {
+    background-color: #d698fb;
+  }
+  42% {
+    background-color: #dc98fb;
+  }
+  43% {
+    background-color: #e298fb;
+  }
+  44% {
+    background-color: #e898fb;
+  }
+  45% {
+    background-color: #ee98fb;
+  }
+  46% {
+    background-color: #f498fb;
+  }
+  47% {
+    background-color: #fa98fb;
+  }
+  48% {
+    background-color: #fb98f6;
+  }
+  49% {
+    background-color: #fb98f0;
+  }
+  50% {
+    background-color: #fb98eb;
+  }
+  51% {
+    background-color: #fb98e5;
+  }
+  52% {
+    background-color: #fb98df;
+  }
+  53% {
+    background-color: #fb98d9;
+  }
+  54% {
+    background-color: #fb98d3;
+  }
+  55% {
+    background-color: #fb98cd;
+  }
+  56% {
+    background-color: #fb98c7;
+  }
+  57% {
+    background-color: #fb98c1;
+  }
+  58% {
+    background-color: #fb98bb;
+  }
+  59% {
+    background-color: #fb98b5;
+  }
+  60% {
+    background-color: #fb98af;
+  }
+  61% {
+    background-color: #fb98a9;
+  }
+  62% {
+    background-color: #fb98a3;
+  }
+  63% {
+    background-color: #fb989d;
+  }
+  64% {
+    background-color: #fb9998;
+  }
+  65% {
+    background-color: #fb9f98;
+  }
+  66% {
+    background-color: #fba598;
+  }
+  67% {
+    background-color: #fbaa98;
+  }
+  68% {
+    background-color: #fbb098;
+  }
+  69% {
+    background-color: #fbb698;
+  }
+  70% {
+    background-color: #fbbc98;
+  }
+  71% {
+    background-color: #fbc298;
+  }
+  72% {
+    background-color: #fbc898;
+  }
+  73% {
+    background-color: #fbce98;
+  }
+  74% {
+    background-color: #fbd498;
+  }
+  75% {
+    background-color: #fbda98;
+  }
+  76% {
+    background-color: #fbe098;
+  }
+  77% {
+    background-color: #fbe698;
+  }
+  78% {
+    background-color: #fbec98;
+  }
+  79% {
+    background-color: #fbf298;
+  }
+  80% {
+    background-color: #fbf898;
+  }
+  81% {
+    background-color: #f8fb98;
+  }
+  82% {
+    background-color: #f2fb98;
+  }
+  83% {
+    background-color: #ecfb98;
+  }
+  84% {
+    background-color: #e7fb98;
+  }
+  85% {
+    background-color: #e1fb98;
+  }
+  86% {
+    background-color: #dbfb98;
+  }
+  87% {
+    background-color: #d5fb98;
+  }
+  88% {
+    background-color: #cffb98;
+  }
+  89% {
+    background-color: #c9fb98;
+  }
+  90% {
+    background-color: #c3fb98;
+  }
+  91% {
+    background-color: #bdfb98;
+  }
+  92% {
+    background-color: #b7fb98;
+  }
+  93% {
+    background-color: #b1fb98;
+  }
+  94% {
+    background-color: #abfb98;
+  }
+  95% {
+    background-color: #a5fb98;
+  }
+  96% {
+    background-color: #9ffb98;
+  }
+  97% {
+    background-color: #99fb98;
+  }
+  98% {
+    background-color: #98fb9d;
+  }
+  99% {
+    background-color: #98fba3;
+  }
+  100% {
+    background-color: #98fba9;
+  }
+}
+@keyframes colorChange {
+  0% {
+    background-color: #98fba9;
+  }
+  1% {
+    background-color: #98fbae;
+  }
+  2% {
+    background-color: #98fbb4;
+  }
+  3% {
+    background-color: #98fbba;
+  }
+  4% {
+    background-color: #98fbc0;
+  }
+  5% {
+    background-color: #98fbc6;
+  }
+  6% {
+    background-color: #98fbcc;
+  }
+  7% {
+    background-color: #98fbd2;
+  }
+  8% {
+    background-color: #98fbd8;
+  }
+  9% {
+    background-color: #98fbde;
+  }
+  10% {
+    background-color: #98fbe4;
+  }
+  11% {
+    background-color: #98fbea;
+  }
+  12% {
+    background-color: #98fbf0;
+  }
+  13% {
+    background-color: #98fbf6;
+  }
+  14% {
+    background-color: #98fafb;
+  }
+  15% {
+    background-color: #98f4fb;
+  }
+  16% {
+    background-color: #98eefb;
+  }
+  17% {
+    background-color: #98e9fb;
+  }
+  18% {
+    background-color: #98e3fb;
+  }
+  19% {
+    background-color: #98ddfb;
+  }
+  20% {
+    background-color: #98d7fb;
+  }
+  21% {
+    background-color: #98d1fb;
+  }
+  22% {
+    background-color: #98cbfb;
+  }
+  23% {
+    background-color: #98c5fb;
+  }
+  24% {
+    background-color: #98bffb;
+  }
+  25% {
+    background-color: #98b9fb;
+  }
+  26% {
+    background-color: #98b3fb;
+  }
+  27% {
+    background-color: #98adfb;
+  }
+  28% {
+    background-color: #98a7fb;
+  }
+  29% {
+    background-color: #98a1fb;
+  }
+  30% {
+    background-color: #989bfb;
+  }
+  31% {
+    background-color: #9b98fb;
+  }
+  32% {
+    background-color: #a198fb;
+  }
+  33% {
+    background-color: #a798fb;
+  }
+  34% {
+    background-color: #ac98fb;
+  }
+  35% {
+    background-color: #b298fb;
+  }
+  36% {
+    background-color: #b898fb;
+  }
+  37% {
+    background-color: #be98fb;
+  }
+  38% {
+    background-color: #c498fb;
+  }
+  39% {
+    background-color: #ca98fb;
+  }
+  40% {
+    background-color: #d098fb;
+  }
+  41% {
+    background-color: #d698fb;
+  }
+  42% {
+    background-color: #dc98fb;
+  }
+  43% {
+    background-color: #e298fb;
+  }
+  44% {
+    background-color: #e898fb;
+  }
+  45% {
+    background-color: #ee98fb;
+  }
+  46% {
+    background-color: #f498fb;
+  }
+  47% {
+    background-color: #fa98fb;
+  }
+  48% {
+    background-color: #fb98f6;
+  }
+  49% {
+    background-color: #fb98f0;
+  }
+  50% {
+    background-color: #fb98eb;
+  }
+  51% {
+    background-color: #fb98e5;
+  }
+  52% {
+    background-color: #fb98df;
+  }
+  53% {
+    background-color: #fb98d9;
+  }
+  54% {
+    background-color: #fb98d3;
+  }
+  55% {
+    background-color: #fb98cd;
+  }
+  56% {
+    background-color: #fb98c7;
+  }
+  57% {
+    background-color: #fb98c1;
+  }
+  58% {
+    background-color: #fb98bb;
+  }
+  59% {
+    background-color: #fb98b5;
+  }
+  60% {
+    background-color: #fb98af;
+  }
+  61% {
+    background-color: #fb98a9;
+  }
+  62% {
+    background-color: #fb98a3;
+  }
+  63% {
+    background-color: #fb989d;
+  }
+  64% {
+    background-color: #fb9998;
+  }
+  65% {
+    background-color: #fb9f98;
+  }
+  66% {
+    background-color: #fba598;
+  }
+  67% {
+    background-color: #fbaa98;
+  }
+  68% {
+    background-color: #fbb098;
+  }
+  69% {
+    background-color: #fbb698;
+  }
+  70% {
+    background-color: #fbbc98;
+  }
+  71% {
+    background-color: #fbc298;
+  }
+  72% {
+    background-color: #fbc898;
+  }
+  73% {
+    background-color: #fbce98;
+  }
+  74% {
+    background-color: #fbd498;
+  }
+  75% {
+    background-color: #fbda98;
+  }
+  76% {
+    background-color: #fbe098;
+  }
+  77% {
+    background-color: #fbe698;
+  }
+  78% {
+    background-color: #fbec98;
+  }
+  79% {
+    background-color: #fbf298;
+  }
+  80% {
+    background-color: #fbf898;
+  }
+  81% {
+    background-color: #f8fb98;
+  }
+  82% {
+    background-color: #f2fb98;
+  }
+  83% {
+    background-color: #ecfb98;
+  }
+  84% {
+    background-color: #e7fb98;
+  }
+  85% {
+    background-color: #e1fb98;
+  }
+  86% {
+    background-color: #dbfb98;
+  }
+  87% {
+    background-color: #d5fb98;
+  }
+  88% {
+    background-color: #cffb98;
+  }
+  89% {
+    background-color: #c9fb98;
+  }
+  90% {
+    background-color: #c3fb98;
+  }
+  91% {
+    background-color: #bdfb98;
+  }
+  92% {
+    background-color: #b7fb98;
+  }
+  93% {
+    background-color: #b1fb98;
+  }
+  94% {
+    background-color: #abfb98;
+  }
+  95% {
+    background-color: #a5fb98;
+  }
+  96% {
+    background-color: #9ffb98;
+  }
+  97% {
+    background-color: #99fb98;
+  }
+  98% {
+    background-color: #98fb9d;
+  }
+  99% {
+    background-color: #98fba3;
+  }
+  100% {
+    background-color: #98fba9;
+  }
+}

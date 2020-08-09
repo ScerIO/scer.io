@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "serge-shkurko"
+  },
+  "targets": {
+    "serge-shkurko": {
+      "hosting": {
+        "scerio": [
+          "scerio"
+        ]
+      }
+    }
+  }
+}
